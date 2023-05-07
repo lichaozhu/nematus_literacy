@@ -1,8 +1,5 @@
 # netatus_literacy
 
-## Steps
-
-### Tokenization
 
 ### What we had
 - Not 'annotation' but 'factors' for Nematus on Nematus Github Deposite 
@@ -12,12 +9,13 @@
 
 
 ### What we have changed
-- Training configs have been reformatted in Shell
-- Annotation instruction should be COMPLETELY changed.
+- Training configs have been formatted into Shell
+- Annotation instruction have been updated. 
+
+## Training Steps
+
 
 ### Annotation
-
-
 
 1. Download [Stanford CoreNLP (4.5.4)](https://nlp.stanford.edu/software/stanford-corenlp-4.5.4.zip) and unzip
 2. Download [French Lnguage Model](https://nlp.stanford.edu/software/stanford-corenlp-4.5.4-models-french.jar)
