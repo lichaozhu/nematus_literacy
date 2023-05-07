@@ -4,7 +4,21 @@
 
 ### Tokenization
 
+### What we had
+- Not 'annotation' but 'factors' for Nematus on Nematus Github Deposite 
+- Need to read [https://github.com/EdinburghNLP/nematus/blob/master/doc/factored_neural_machine_translation.md](https://github.com/EdinburghNLP/nematus/blob/master/doc/factored_neural_machine_translation.md)
+- Jump to [https://github.com/rsennrich/wmt16-scripts/tree/master/factored_sample](https://github.com/rsennrich/wmt16-scripts/tree/master/factored_sample)
+- [Annotation instructions](https://github.com/rsennrich/wmt16-scripts/blob/master/factored_sample/README.md)
+
+
+### What we have changed
+- Training configs have been reformatted in Shell
+- Annotation instruction should be COMPLETELY changed.
+
 ### Annotation
+
+
+
 1. Download [Stanford CoreNLP (4.5.4)](https://nlp.stanford.edu/software/stanford-corenlp-4.5.4.zip) and unzip
 2. Download [French Lnguage Model](https://nlp.stanford.edu/software/stanford-corenlp-4.5.4-models-french.jar)
 3. Put the French Language Model into the unzipped Stanford CoreNLP repository
