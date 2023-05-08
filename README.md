@@ -10,7 +10,7 @@
 
 ### What we have to modify
 - Training configs have been formatted into Shell
-- Annotation instruction have been updated. 
+- Annotation instructions have been updated. 
 
 ## Training Steps
 
