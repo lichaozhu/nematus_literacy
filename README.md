@@ -2,13 +2,13 @@
 
 
 ### What we had
-- Not 'annotation' but 'factors' for Nematus on Nematus Github Deposite 
+- Not 'annotation' but 'factors' for Nematus on Nematus Github Repos 
 - Need to read [https://github.com/EdinburghNLP/nematus/blob/master/doc/factored_neural_machine_translation.md](https://github.com/EdinburghNLP/nematus/blob/master/doc/factored_neural_machine_translation.md)
 - Jump to [https://github.com/rsennrich/wmt16-scripts/tree/master/factored_sample](https://github.com/rsennrich/wmt16-scripts/tree/master/factored_sample)
 - [Annotation instructions](https://github.com/rsennrich/wmt16-scripts/blob/master/factored_sample/README.md)
 
 
-### What we have changed
+### What we have to modify
 - Training configs have been formatted into Shell
 - Annotation instruction have been updated. 
 
