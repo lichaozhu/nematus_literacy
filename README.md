@@ -18,7 +18,7 @@
 ### Annotation
 
 1. Download [Stanford CoreNLP (4.5.4)](https://nlp.stanford.edu/software/stanford-corenlp-4.5.4.zip) and unzip
-2. Download [French Lnguage Model](https://nlp.stanford.edu/software/stanford-corenlp-4.5.4-models-french.jar)
+2. Download [French Language Model](https://nlp.stanford.edu/software/stanford-corenlp-4.5.4-models-french.jar)
 3. Put the French Language Model into the unzipped Stanford CoreNLP repository
 4. Go to the Stanford CoreNLP repository 
 5. Goto command-line interface : ```export CLASSPATH="$CLASSPATH:/path_to/stanford-corenlp-4.5.4/stanford-corenlp-4.5.4.jar:/path_to/stanford-corenlp-4.5.4/stanford-corenlp-4.5.4-models-french.jar"; for file in `find . -name "*.jar"`; do export CLASSPATH="$CLASSPATH:`realpath $file`"; done```
