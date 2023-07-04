@@ -8,7 +8,7 @@
 - [Annotation instructions](https://github.com/rsennrich/wmt16-scripts/blob/master/factored_sample/README.md)
 
 
-### What we have to modify
+### What we modify
 - Training configs have been formatted into Shell
 - Annotation instructions have been updated. 
 
