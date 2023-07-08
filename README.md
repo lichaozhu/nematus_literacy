@@ -25,4 +25,9 @@
 6. ```java -cp "*" edu.stanford.nlp.pipeline.StanfordCoreNLP -props StanfordCoreNLP-french.properties -annotators "tokenize, ssplit, pos, depparse, lemma" -ssplit.eolonly true -tokenize.whitespace true -numThreads 8 -outputFormat conll < input.txt > output.conll```
 
 ### Conll to factors
-conll_to_factors.py data/$prefix.bpe.$SRC data/$prefix.conll.$SRC > data/$prefix.factors.$SRC
+1. conll_to_factors.py data/$prefix.bpe.$SRC data/$prefix.conll.$SRC > data/$prefix.factors.$SRC
+2. for i in {1..4}
+ do
+  $mosesdecoder/scripts/training/reduce-factors.perl --corpus data/corpus.factors.$SRC --reduced-corpus data/corpus.factors.$i.$SRC --factor $i
+  $nematus/data/build_dictionary.py data/corpus.factors.$i.$SRC
+ done
