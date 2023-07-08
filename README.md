@@ -23,3 +23,6 @@
 4. Go to the Stanford CoreNLP repository 
 5. Goto command-line interface : ```export CLASSPATH="$CLASSPATH:/path_to/stanford-corenlp-4.5.4/stanford-corenlp-4.5.4.jar:/path_to/stanford-corenlp-4.5.4/stanford-corenlp-4.5.4-models-french.jar"; for file in `find . -name "*.jar"`; do export CLASSPATH="$CLASSPATH:`realpath $file`"; done```
 6. ```java -cp "*" edu.stanford.nlp.pipeline.StanfordCoreNLP -props StanfordCoreNLP-french.properties -annotators "tokenize, ssplit, pos, depparse, lemma" -ssplit.eolonly true -tokenize.whitespace true -numThreads 8 -outputFormat conll < input.txt > output.conll```
+
+### Conll eo factors
+conll_to_factors.py data/$prefix.bpe.$SRC data/$prefix.conll.$SRC > data/$prefix.factors.$SRC
